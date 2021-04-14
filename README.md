@@ -63,7 +63,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Deployed on firebase using three commands(You have to install firebase and firebase-tools using npm):
+1]firebase init(select build to use as your public root directory 
+2]npm run build 
+3]firebase deploy
 
 ### `yarn build` fails to minify
 
