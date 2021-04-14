@@ -1,0 +1,128 @@
+.main {
+	width: 100vw;
+	height: 100vh;
+	background-color: lightgray;
+}
+
+.login_box {
+	background-color: white !important;
+	width: 80% !important;
+}
+
+.hiddenbutton {
+	display: none;
+}
+
+.navbar-brand:hover {
+	transform: scale(1.1);
+}
+
+.scroll {
+	width: auto;
+	height: 585px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 20px;
+}
+.scroll_yourarticles {
+	width: auto;
+	height: 600px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 20px;
+}
+
+.articles_image {
+	padding: 1px;
+	padding: 4%;
+	width: auto !important;
+	height: 350px !important;
+}
+
+.article_img {
+	width: 700px !important;
+	height: 350px !important;
+}
+.image_border {
+	padding: 10px;
+	border: 2px solid lightgray;
+}
+.media_img {
+	width: 150px !important;
+	height: 150px !important;
+}
+.paginationBttns {
+	width: 80%;
+	height: 40px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.paginationBttns a {
+	padding: 10px;
+	margin: 8px;
+	border-radius: 5px;
+	border: 1px solid #007bff;
+	color: #007bff;
+	cursor: pointer;
+}
+
+.paginationBttns a:hover {
+	color: white !important;
+	background-color: #007bff;
+}
+
+.paginationActive a {
+	color: white !important;
+	background-color: #007bff;
+}
+
+.border-bottom {
+	border-bottom: 3px solid lightgray !important;
+}
+.border-top {
+	border-top: 3px solid lightgray !important;
+}
+.fa-heart {
+	color: red;
+}
+.signup {
+	background-color: lightgray;
+}
+
+@media (max-width: 576px) {
+	.scroll {
+		height: 400px;
+	}
+	.scroll_signup {
+		height: 500px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		padding: 20px;
+	}
+	.articles_image {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	.article_img {
+		width: 300px !important;
+		height: 300px !important;
+	}
+}
+.profile_image {
+	height: 100px;
+	width: 100px;
+}
+
+div::-webkit-scrollbar {
+	width: 0.25rem;
+}
+
+div::-webkit-scrollbar-track {
+	background: lightgray;
+}
+
+div::-webkit-scrollbar-thumb {
+	background: #007bff;
+}
