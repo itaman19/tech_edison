@@ -16,7 +16,7 @@ article page
 ![article](https://user-images.githubusercontent.com/53750987/115152363-6843b500-a08e-11eb-9222-d98888b9a408.png)
 
 
-
+A WebApp where user can select his preferences based on which articles will be fetched at the time of signup only. One can read articles written by other users also they can like , dislike and block that article. one can also write his own article and can view how many likes , dislikes and blocks are there on their article. One can also edit his preferences , and their personal info .
 
 
 
